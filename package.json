@@ -14,7 +14,7 @@
     "@chakra-ui/system": "^2.6.2",
     "@chakra-ui/theme-tools": "^2.1.2",
     "@clerk/localizations": "^1.26.13",
-    "@clerk/nextjs": "^4.28.1",
+    "@clerk/nextjs": "^4.29.1",
     "@clerk/themes": "^1.7.9",
     "@codemirror/language": "^6.9.3",
     "@codemirror/legacy-modes": "^6.3.3",
