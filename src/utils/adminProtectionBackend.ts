@@ -20,7 +20,7 @@ export const adminProtectionBackend: GetServerSideProps = async (ctx) => {
   const userOrganizations = decodedToken?.['user.organizations'];
   const orgId = process.env.NEXT_PUBLIC_CLERK_ADMIN_ORGANIZATION_ID;
 
-  if (orgId && userOrganizations && userOrganizations[orgId] !== 'admin') {
+  if (orgId && userOrganizations && userOrganizations[orgId] !== 'org:admin') {
     return {
       redirect: {
         destination: '/',
